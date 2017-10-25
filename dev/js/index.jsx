@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Hello from './Components/Hello';
 
 ReactDOM.render(
-  <h1>Hello World !</h1>,
+  <Hello />,
     document.querySelector('#root'),
 );
 

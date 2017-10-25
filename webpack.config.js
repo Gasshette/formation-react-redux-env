@@ -7,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, 'src'),
     filename: 'build/js/bundle.min.js',
   },
+  resolve: {
+    extensions: ['*', '.js', '.jsx'],
+  },
   devServer: {
     publicPath: '/',
     contentBase: './src',
