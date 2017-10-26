@@ -1,5 +1,11 @@
 import React from 'react';
+import PropTypes from 'prop-type';
 
-const Hello = () => <h1>Hello World From Component !</h1>;
+const Hello = ({ hello }) => <h1>{hello} !</h1>;
+
+Hello.propTypes = {
+  hello: PropTypes.string.isRequired,
+};
 
 export default Hello;
+
