@@ -24,6 +24,7 @@ Noms des différentes branches :
 2. step-2-ComponentReact
 3. step-3-ReduxEtAction
 4. step-4-ActionAsynchrone
+5. step-5-DevTools
 
 
 Dans chaque branche se trouve une documentation décrivant le processus de création de cette formation.
