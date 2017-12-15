@@ -1,9 +1,18 @@
 import * as types from './ActionsTypes';
+import * as api from '../Api';
 
-const sayHello = hello => ({
+export const sayHello = hello => ({
   type: types.SAY_HELLO,
   hello,
 });
 
-export default sayHello;
+export const getMoviesSuccess = movies => ({
+  type: types.GET_MOVIES,
+  movies,
+});
+
+export const getMovies = () => dispatch =>
+  api.getMovies()
+  .then(json => dispatch(getMoviesSuccess(json)),
+  );
 
