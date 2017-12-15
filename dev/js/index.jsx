@@ -1,14 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import Store from './Store';
-import App from './AppWrapper/App';
+import Hello from './Components/Hello';
 
 ReactDOM.render(
-  <Provider store={Store}>
-    <App />
-  </Provider>,
-    document.querySelector('#root'),
+  <Hello />,
+  document.querySelector('#root'),
 );
 
 // Sert à l'utilisation du fichier sourcemap
