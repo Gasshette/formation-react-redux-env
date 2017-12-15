@@ -1,9 +1,9 @@
 ![alt CAPGEMINI LOGO](https://www.capgemini.com/wp-content/uploads/2017/10/cg_logo.jpg)
 
-## Mentions Légales
+# Mentions Légales
 **© 2017 CAPGEMINI ALL RIGHTS RESERVED**
 
-## Description du projet
+# Description du projet
 
 Formation pas-à-pas concernant ReactJS, Redux, et l'environnement autour (NodeJS + Webpack).
 Les développements se basent sur javascript version 6 (ES2015)
