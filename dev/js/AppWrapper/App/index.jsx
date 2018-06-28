@@ -1,5 +1,5 @@
 import React from 'react';
-import Hello from '../../Containers/Hello';
+import Hello from '../../Components/Hello';
 
 const App = () => <Hello />;
 
